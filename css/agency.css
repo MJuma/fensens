@@ -145,6 +145,11 @@ fieldset[disabled] .btn-primary.active {
     background-image: none;
 }
 
+.logo-size{
+    height:100px;
+    width: 100px;
+}
+
 .btn-xl.disabled,
 .btn-xl[disabled],
 fieldset[disabled] .btn-xl,
@@ -334,9 +339,10 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 25px;
     font-style: italic;
     font-weight: 400;
+    font-color:black;
 }
 
 @media(min-width:768px) {
@@ -838,6 +844,22 @@ ul.social-buttons li a:active {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+.circle-icon {
+    width: 130px;
+    height: 130px;
+    line-height: 150px;
+    background-color: #fec503;
+    border-radius: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto 50px auto;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
 
 ::-moz-selection {
     text-shadow: none;
